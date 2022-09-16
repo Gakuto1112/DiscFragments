@@ -1,0 +1,1 @@
+give @p disc_fragment_5{display:{Lore:['{"translate":"item.minecraft.music_disc_ward.desc"}']},CustomModelData:14} 9

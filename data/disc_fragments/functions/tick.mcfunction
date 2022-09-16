@@ -1,3 +1,5 @@
+execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:disc_fragment_5",Count:9b},Motion:[0.0,0.0,0.0]}] run playsound minecraft:block.anvil.place player @a ~ ~ ~ 1 2
+execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:disc_fragment_5",Count:9b},Motion:[0.0,0.0,0.0]}] run particle crit ~ ~ ~ 0 0 0 1 30
 execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:disc_fragment_5",Count:9b,tag:{CustomModelData:1}},Motion:[0.0,0.0,0.0]}] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:music_disc_11",Count:1b}}
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:disc_fragment_5",Count:9b,tag:{CustomModelData:1}},Motion:[0.0,0.0,0.0]}]
 execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:disc_fragment_5",Count:9b,tag:{CustomModelData:2}},Motion:[0.0,0.0,0.0]}] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:music_disc_13",Count:1b}}

@@ -1,0 +1,92 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/disc_fragment_5"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "minecraft:item/disc_fragment_11"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "minecraft:item/disc_fragment_13"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "minecraft:item/disc_fragment_blocks"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "minecraft:item/disc_fragment_cat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "minecraft:item/disc_fragment_chirp"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "minecraft:item/disc_fragment_far"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "minecraft:item/disc_fragment_mall"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "minecraft:item/disc_fragment_mellohi"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "minecraft:item/disc_fragment_otherside"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "minecraft:item/disc_fragment_pigstep"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "minecraft:item/disc_fragment_stal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "minecraft:item/disc_fragment_strad"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "minecraft:item/disc_fragment_wait"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "minecraft:item/disc_fragment_ward"
+        }
+    ]
+}
